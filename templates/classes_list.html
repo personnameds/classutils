@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Classroom Utilities</title>
+	</head>
+	
+	<body>
+        <h1>Classes</h1>
+    
+        {% for c in classes_list %}
+            <li><a href="{{c.name}}">{{c.name}}</li><br>
+        {%endfor%}
+        <br>
+        <li><a href="/">Home</a></li>
+	</body>
+</html>

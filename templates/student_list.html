@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Classroom Utilities</title>
+	</head>
+
+	<body>
+        <h1>{{klass}} Students</h1>
+        {% for s in student_list %}
+            {{s.name}}<br>
+        {%endfor%}
+        <br>
+        <li><a href="/">Home</a></li>
+	</body>
+</html>
